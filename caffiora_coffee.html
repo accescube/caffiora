@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAFFIORA Coffee Beans</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f1ed;
+      color: #3a2c27;
+    }
+    .hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(to bottom, #6a4638, #3a2c27);
+      color: #f4f1ed;
+      text-align: left;
+      padding: 0 20px;
+    }
+    .hero-content {
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 40px;
+    }
+    .hero h1 {
+      font-size: 60px;
+      font-weight: bold;
+      margin: 0;
+      line-height: 1.2;
+    }
+    .hero p {
+      font-size: 18px;
+      margin: 20px 0;
+      color: #e0d6c9;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      border-radius: 25px;
+      background-color: #cfae88;
+      color: #3a2c27;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #b4936f;
+    }
+    .hero img {
+      max-width: 320px;
+      height: auto;
+      box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+      border-radius: 10px;
+    }
+    .about {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .about h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .about p {
+      max-width: 700px;
+      margin: 0 auto 40px;
+      font-size: 18px;
+      color: #5a463d;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .feature-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .feature-box h3 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+    .feature-box p {
+      color: #5a463d;
+    }
+    footer {
+      background-color: #3a2c27;
+      color: #f4f1ed;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div>
+        <h1>CAFFIORA<br/>Coffee Beans</h1>
+        <p>Discover the rich aroma and smooth taste of our 100% Arabica coffee beans. Perfectly roasted to elevate your coffee experience.</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div>
+        <img src="caffiora-mockup.png" alt="Caffiora Coffee Beans Mockup" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>Why Choose Caffiora?</h2>
+    <p>Our coffee beans are sourced from the finest farms and roasted with precision to bring you the perfect balance of flavor and aroma.</p>
+    <div class="features">
+      <div class="feature-box">
+        <h3>100% Arabica</h3>
+        <p>Premium quality beans for a smooth, rich taste.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Freshly Roasted</h3>
+        <p>Perfect roast to preserve flavor and aroma.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Sustainable Farms</h3>
+        <p>Ethically sourced beans from trusted farmers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <script>document.write(new Date().getFullYear());</script> Caffiora Coffee. All rights reserved.</p>
+  </footer>
+</body>
+</html>
